@@ -2,7 +2,7 @@ Amazon SageMaker Puipeline Code Sample Demo Instructions
 
 These instructions are intended to cover the process of provisioning a SageMaker Sudio instance and cloning the GitHub repo that is required to run a SageMaker Pipeline demo. This lab does come with a CloudFormation template. 
 
-1.	Click on this ![CloudFormation template](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=cvbootcamp&templateURL=https://aws-workshops-us-east-1.s3.amazonaws.com/cvbootcamp/deployment/cf-sage-maker.yaml)to provision a SageMaker instance with proper permissions.
+1.	Click on this [CloudFormation template](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?stackName=cvbootcamp&templateURL=https://aws-workshops-us-east-1.s3.amazonaws.com/cvbootcamp/deployment/cf-sage-maker.yaml) to provision a SageMaker instance with proper permissions.
 2.	After the CloudFormation stack has been deployed, click on Output tab and then click URL under Value.
 3.	Click Open SageMaker Sudio
 4.	Click Commands -> New Terminal to launch a New Terminal
