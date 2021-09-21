@@ -8,7 +8,7 @@ These instructions are intended to cover the process of provisioning a SageMaker
 4.	Click Commands -> New Terminal to launch a New Terminal
 5.	From the newly launched terminal, try: git clone https://github.com/alfredcs/SM_Pipeline_Demo.git
 6.	Make the assumed role has needed permission policies to sagemaker 
-7.	Run different samples using Jupyter Lab or Notebook 1) sagemaker-pipelines-preprocess-train-evaluate-batch-transform.ipynb;
+7.	Run different samples using Jupyter Lab or Notebook 1) sagemaker-pipelines-xgboost-abalone.ipynb;
 	2)sagemaker-pipelines-customized-project.ipynb; 3)xgboost_mnist.ipynb
 
 
