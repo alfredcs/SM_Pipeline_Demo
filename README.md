@@ -41,10 +41,10 @@ bash-4.2$ aws sagemaker list-pipelines
 {
     "PipelineSummaries": [
         {
-            "PipelineArn": "arn:aws:sagemaker:us-west-2:976939723775:pipeline/abalonepipeline",
+            "PipelineArn": "arn:aws:sagemaker:us-west-2:<account-id>:pipeline/abalonepipeline",
             "PipelineName": "AbalonePipeline",
             "PipelineDisplayName": "AbalonePipeline",
-            "RoleArn": "arn:aws:iam::976939723775:role/service-role/AmazonSageMaker-ExecutionRole-20210317T133000",
+            "RoleArn": "arn:aws:iam::<account-id>:role/service-role/AmazonSageMaker-ExecutionRole-20210317T133000",
             "CreationTime": 1632255010.504,
             "LastModifiedTime": 1632260142.207
         }
@@ -59,13 +59,13 @@ bash-4.2$ aws sagemaker list-pipeline-executions --pipeline-name AbalonePipeline
 {
     "PipelineExecutionSummaries": [
         {
-            "PipelineExecutionArn": "arn:aws:sagemaker:us-west-2:976939723775:pipeline/abalonepipeline/execution/4wemqw2sucgh",
+            "PipelineExecutionArn": "arn:aws:sagemaker:us-west-2:<account-id>:pipeline/abalonepipeline/execution/4wemqw2sucgh",
             "StartTime": 1632260141.95,
             "PipelineExecutionStatus": "Executing",
             "PipelineExecutionDisplayName": "execution-1632260142207"
         },
         {
-            "PipelineExecutionArn": "arn:aws:sagemaker:us-west-2:976939723775:pipeline/abalonepipeline/execution/sg52s84nu639",
+            "PipelineExecutionArn": "arn:aws:sagemaker:us-west-2:<account-id>:pipeline/abalonepipeline/execution/sg52s84nu639",
             "StartTime": 1632255076.436,
             "PipelineExecutionStatus": "Succeeded",
             "PipelineExecutionDisplayName": "execution-1632255076521"
@@ -78,7 +78,7 @@ bash-4.2$ aws sagemaker list-pipeline-executions --pipeline-name AbalonePipeline
 Check for pipeline execution parameters
 
 ```
-bash-4.2$ aws sagemaker list-pipeline-parameters-for-execution --pipeline-execution-arn arn:aws:sagemaker:us-west-2:976939723775:pipeline/abalonepipeline/execution/4wemqw2sucgh
+bash-4.2$ aws sagemaker list-pipeline-parameters-for-execution --pipeline-execution-arn arn:aws:sagemaker:us-west-2:<account-id>:pipeline/abalonepipeline/execution/4wemqw2sucgh
 {
     "PipelineParameters": [
         {
@@ -87,7 +87,7 @@ bash-4.2$ aws sagemaker list-pipeline-parameters-for-execution --pipeline-execut
         },
         {
             "Name": "BatchData",
-            "Value": "s3://sagemaker-us-west-2-976939723775/abalone/abalone-dataset-batch"
+            "Value": "s3://sagemaker-us-west-2-<account-id>/abalone/abalone-dataset-batch"
         },
         {
             "Name": "TrainingInstanceType",
@@ -99,7 +99,7 @@ bash-4.2$ aws sagemaker list-pipeline-parameters-for-execution --pipeline-execut
         },
         {
             "Name": "InputData",
-            "Value": "s3://sagemaker-us-west-2-976939723775/abalone/abalone-dataset.csv"
+            "Value": "s3://sagemaker-us-west-2-<account-id>/abalone/abalone-dataset.csv"
         },
         {
             "Name": "ProcessingInstanceCount",
