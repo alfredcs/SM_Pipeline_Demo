@@ -10,9 +10,9 @@ These instructions are intended to cover the process of provisioning a SageMaker
 6.	Make the assumed role has needed permission policies to run Sagemaker 
 7.	Run different samples using Jupyter Lab or Notebook 
 ```
-		1) sagemaker-pipelines-xgboost-abalone.ipynb: Pipeline demo on regression with Abalone dataset; 
-		2) sagemaker-pipelines-customized-project.ipynb: Custimize a pipeline project;  
-		3) xgboost_mnist.ipynb: Prediction with a SageMaker build-in algorithm. 
+		a) sagemaker-pipelines-xgboost-abalone.ipynb: Pipeline demo on regression with Abalone dataset; 
+		b) sagemaker-pipelines-customized-project.ipynb: Custimize a pipeline project;  
+		c) xgboost_mnist.ipynb: Prediction with a SageMaker build-in algorithm. 
 ```
 
 
