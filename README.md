@@ -1,4 +1,4 @@
-Amazon SageMaker Puipeline Code Sample Demo Instructions
+Amazon SageMaker Pipeline Code Sample Demo Instructions
 
 These instructions are intended to cover the process of provisioning a SageMaker Sudio instance and cloning the GitHub repo that is required to run a SageMaker Pipeline demo. This lab does come with a CloudFormation template. 
 
